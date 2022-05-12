@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.decde">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DECİDE">
+        <activity
+            android:name=".TESSKUR2"
+            android:exported="false" />
+        <activity
+            android:name=".KİM2"
+            android:exported="false" />
+        <activity
+            android:name=".KİM1"
+            android:exported="false" />
+        <activity
+            android:name=".CHAMP"
+            android:exported="false" />
+        <activity
+            android:name=".futbol"
+            android:exported="false" />
+        <activity
+            android:name=".giriss2"
+            android:exported="false" />
+        <activity
+            android:name=".TESKKUR"
+            android:exported="false" />
+        <activity
+            android:name=".HYVN"
+            android:exported="false" />
+        <activity
+            android:name=".SARAY"
+            android:exported="false" />
+        <activity
+            android:name=".RENK"
+            android:exported="false" />
+        <activity
+            android:name=".PC"
+            android:exported="false" />
+        <activity
+            android:name=".TELEFN"
+            android:exported="false" />
+        <activity
+            android:name=".CİKOLATA"
+            android:exported="false" />
+        <activity
+            android:name=".KAMPUS"
+            android:exported="false" />
+        <activity
+            android:name=".ARABA"
+            android:exported="false" />
+        <activity
+            android:name=".YAKSIK"
+            android:exported="false" />
+        <activity
+            android:name=".KZZ"
+            android:exported="false" />
+        <activity
+            android:name=".KIZ"
+            android:exported="false" />
+        <activity
+            android:name=".GİRİS"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DECİDE.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
